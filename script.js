@@ -1,8 +1,8 @@
 //your JS code here. If required.
-const btn=document.getElementById("submit");
-btn.addEventListener("click", function(){
-	alert("First Name:Virat");
-	alert("Last Name:Kohli");
-	alert("Phone Number:9999888877");
-	alert("Email ID: viratkohli@temp.xyz");
-})
+const button = document.getElementById("btn");
+button.addEventListener("click", function (){
+	alert("First Name:john");
+	alert("Last Name:Doe");
+	alert("Phone Number:1234567890");
+	alert("Email ID: john.doe@example.com");
+});
